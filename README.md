@@ -7,7 +7,7 @@ I built this cache because Twitter's API is quite unreliable; no doubt you've ex
 
 To use it, simply use it like you use the normal twitter feed, slightly modifying the URL to point to the cache script. Here's a jQuery example:
 
-    $.getJSON('/path/to/twitter-cache.php?username=levymetal&count=4', function(data) {
+    $.getJSON('/path/to/twitter-cache.php?user=levymetal&count=4', function(data) {
         $.each(data, function(i) {
             // do something with data[i]
         });
